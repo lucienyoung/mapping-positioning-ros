@@ -84,6 +84,10 @@ https://github.com/lucienyoung/navigation-config-demo.git
   
 The relavant detail can be found at [ros-navigation WiKi](http://wiki.ros.org/navigation).
 
+<p align="center">
+  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/5e50fa9e-b4f4-43ff-89c5-3d8afdec54fa" />
+</p>
+  
 ### 3.5 Path planning simulation
 If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**](https://github.com/pirobot/rbx1.git) simulation framework. To install, you can use the following commands:
 ```
