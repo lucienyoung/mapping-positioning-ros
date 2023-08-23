@@ -1,10 +1,10 @@
 # map-building-ros  
 The mapping and relocalization module of CityU's blind navigation system.
 ## 1. Prerequisites  
-1.1. Ubuntu 18.04.  
-1.2. ROS version Kinetic or Melodic fully installation  
-1.3. Ceres Solver Follow Ceres Installation  
-1.4. Sophus  
++ Ubuntu 18.04.  
++ ROS version Kinetic or Melodic fully installation  
++ Ceres Solver Follow Ceres Installation  
++ Sophus  
 ```
   git clone http://github.com/strasdat/Sophus.git
   git checkout a621ff
