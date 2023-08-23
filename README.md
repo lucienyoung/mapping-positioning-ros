@@ -106,5 +106,10 @@ where the test_map.yaml definds the meta-parameter of your pre-build global map.
 ```
 rosrun map_server map_saver map:/projected_map -f /home/your_user_name/test_map
 ```
+
+<p align="center">
+  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/9fa7ce14-8605-4a84-b802-884c8f09a15f" />
+</p>
+
 ### 3.6 Acknowledgment
 We'd like to pay honor to pioneers and predecessors who came before us; it is their unremitting efforts and selfless sharing spirits that shed light on our current and future works.
