@@ -88,6 +88,8 @@ The relavant detail can be found at [ros-navigation WiKi](http://wiki.ros.org/na
   <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/5e50fa9e-b4f4-43ff-89c5-3d8afdec54fa" />
 </p>
   
+> Given that RealSense technology provides direct point clouds output, but it is too dense to achieve real-time performance when marked down to form a local costmap, we utilize the voxel grid to down-sample the point clouds, where each point is approximate to the centroid given a voxel. Later, the downsampled point clouds will be labelled down to the ground floor for real-time obstacle avoidance, where the local path planning algorithm can be implemented. See from [dwa_local-planner](http://wiki.ros.org/dwa_local_planner).
+  
 ### 3.5 Path planning simulation
 If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**](https://github.com/pirobot/rbx1.git) simulation framework. To install, you can use the following commands:
 ```
