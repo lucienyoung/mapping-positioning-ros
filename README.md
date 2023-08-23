@@ -62,6 +62,10 @@ rosrun rs_pcl_filter rs_downsample
 Note that you should record the navigation goal (destination) along with map building for any future retrieval. Clicking the record button at your Android human-machine interface allows you enter the recording mode, whereby you can input specified goal names into the text bar for recording and receive their real-time position and orientation from ROS for updating. The relavant details can be find in [blind-navigation-app](https://github.com/lucienyoung/blind-navigation-app.git).
 
 <p align="center">
+  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/05871d75-ae25-4d0d-bfa4-c989ed5b89c7" />
+</p>
+
+<p align="center">
   <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/41612bd2-5f99-480d-97ee-ae5b6c27dbd5" />
 </p>
   
