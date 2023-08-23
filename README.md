@@ -2,7 +2,7 @@
 The mapping and relocalization modules of CityU's blind navigation system.
   
 <p align="center">
-  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/d29b8362-843d-4c98-a847-07f92e59585a" />
+  <img width="355" height="395" src="https://github.com/lucienyoung/map-building-ros/assets/137718915/d29b8362-843d-4c98-a847-07f92e59585a" />
 </p>
   
 ## 1. Prerequisites  
