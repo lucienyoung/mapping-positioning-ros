@@ -50,7 +50,7 @@ catkin_make
 ```
   
 ### 3.3 Run the mapping and positioning algorithm  
-The global mapping launch files have been integrated into one, you can only run the following commands:
+The global mapping launch files have been integrated into one, so you can only run the following command to activate all of mapping and visualization nodes:
 ```
 roslaunch vins_estimator realsense_color.launch
 ```
