@@ -64,10 +64,10 @@ Note that you should record the navigation goal (destination) along with map bui
 ### 3.4 Real-time path planning
 For real-time path planning, you can refer to the following repository:
 ```
-pass
+https://github.com/lucienyoung/navigation-config-demo.git
 ```
   
-The relavant detail can be found at ros-navigation WiKi.
+The relavant detail can be found at [ros-navigation WiKi](http://wiki.ros.org/navigation).
 
 ### 3.5 Path planning simulation
 If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**](https://github.com/pirobot/rbx1.git) simulation framework. To install, you can use the following commands:
