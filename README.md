@@ -1,7 +1,7 @@
 # map-building-ros  
 The mapping and relocalization module of CityU's blind navigation system.
 ## 1. Prerequisites  
-1.1. Ubuntu 16.04 or 18.04.  
+1.1. Ubuntu 18.04.  
 1.2. ROS version Kinetic or Melodic fully installation  
 1.3. Ceres Solver Follow Ceres Installation  
 1.4. Sophus  
@@ -59,5 +59,36 @@ For local point cloud downsampling, please run the following:
 ```
 rosrun rs_pcl_filter rs_downsample
 ```
+  
+### 3.4 Real-time path planning
+For real-time path planning, you can refer to the following repository:
+```
+pass
+```
+  
+The relavant detail can be found at ros-navigation WiKi.
 
+### 3.5 Path planning simulation
+If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**] simulation framework. To install, you can use the following commands:
+```
+sudo apt-get install ros-<rosdistro>-turtlebot-*
+sudo apt-get install ros-<rosdistro>-arbotix-*
 
+cd ~/catkin_ws/src
+git clone https://github.com/pirobot/rbx1.git
+cd ..
+catkin_make
+```
+
+In order to enter the simulation environment, you can input the following commands into your terminal；
+```
+roslaunch rbx1_bringup fake_turtlebot.launch
+
+roslaunch rbx1_nav fake_amcl.launch map:=test_map.yaml
+
+rosrun rviz rviz -d `rospack find rbx1_nav`/nav.rviz
+```
+Where the test_map.yaml definds the meta-parameter of your pre-build global map. You can utilize the command to store your map once mapping procedure gets finished.
+```
+rosrun map_server map_saver map:/projected_map -f /home/your_user_name/test_map
+```
