@@ -69,7 +69,7 @@ pass
 The relavant detail can be found at ros-navigation WiKi.
 
 ### 3.5 Path planning simulation
-If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**] simulation framework. To install, you can use the following commands:
+If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**](https://github.com/pirobot/rbx1.git) simulation framework. To install, you can use the following commands:
 ```
 sudo apt-get install ros-<rosdistro>-turtlebot-*
 sudo apt-get install ros-<rosdistro>-arbotix-*
