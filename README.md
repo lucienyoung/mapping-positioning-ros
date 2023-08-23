@@ -59,6 +59,7 @@ For local point cloud downsampling, please run the following:
 ```
 rosrun rs_pcl_filter rs_downsample
 ```
+Note that you should record the navigation goal (destination) along with map building for any future retrieval. Clicking the record button at your Android human-machine interface allows you enter the recording mode, and you can input specified goal names into the text bar for recording and receive their real-time position and orientation from ROS for updating.
   
 ### 3.4 Real-time path planning
 For real-time path planning, you can refer to the following repository:
