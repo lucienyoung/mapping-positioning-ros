@@ -1,5 +1,5 @@
 # map-building-ros  
-The mapping and relocalization module of CityU's blind navigation system.
+The mapping and relocalization modules of CityU's blind navigation system.
 ## 1. Prerequisites  
 + Ubuntu 18.04.  
 + ROS version Melodic fully installation  
