@@ -81,7 +81,7 @@ cd ..
 catkin_make
 ```
 
-In order to enter the simulation environment, you can input the following commands into your terminal；
+In order to enter the simulation environment, you can input the following commands into your terminal:
 ```
 roslaunch rbx1_bringup fake_turtlebot.launch
 
@@ -89,7 +89,7 @@ roslaunch rbx1_nav fake_amcl.launch map:=test_map.yaml
 
 rosrun rviz rviz -d `rospack find rbx1_nav`/nav.rviz
 ```
-Where the test_map.yaml definds the meta-parameter of your pre-build global map. You can utilize command to store your map once mapping procedure gets finished.
+where the test_map.yaml definds the meta-parameter of your pre-build global map. You can utilize command to store your map once mapping procedure gets finished.
 ```
 rosrun map_server map_saver map:/projected_map -f /home/your_user_name/test_map
 ```
