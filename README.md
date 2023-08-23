@@ -1,5 +1,5 @@
 # mapping-positioning-ros  
-This is the mapping and relocalizing modules of CityU's blind navigation system. However, the proposed system consists of a Galaxy A54 Android smartphone as a user interface, a Dell personal computer with i5-Core CPU (which can be replaced by Jestson development board) and 8GB RAM as the main processor, and a head-mounted RealSense D455 RGB-D camera to perceive the environment. Detailed codes in different module can be seen from the following links.
+This is the mapping and relocalizing modules of CityU's blind navigation system. However, the proposed system consists of a Galaxy A54 Android smartphone as a user interface, a Dell personal computer with i5-Core CPU (which can be replaced by Jestson development board) and 8GB RAM as the main processor, and a head-mounted RealSense D455 RGB-D camera to perceive the environment. Detailed codes in different module can be seen from the following links we provide.
   
 <p align="center">
   <img width="284" height="316" src="https://github.com/lucienyoung/map-building-ros/assets/137718915/d29b8362-843d-4c98-a847-07f92e59585a" />
