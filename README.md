@@ -1,4 +1,4 @@
-# map-building-ros  
+# mapping-positioning-ros  
 The mapping and relocalization modules of CityU's blind navigation system. The proposed system consists of a Galaxy A54 Android smartphone as a user interface, a Dell personal computer with i5-Core CPU (which can be replaced by Jestson development board) and 8GB RAM as the main processor, and a head-mounted RealSense D455 RGB-D camera to perceive the environment. 
   
 <p align="center">
