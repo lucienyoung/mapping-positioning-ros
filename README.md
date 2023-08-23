@@ -81,12 +81,12 @@ Note that you should record the navigation goal (destination) along with map bui
 <p align="center">
   <img src="https://github.com/lucienyoung/mapping-positioning-ros/assets/137718915/5370f606-fb19-4a93-8c1f-2b24cba2274d" />
 </p>
-
+  
+> After the loops get detected, the global optimization module will continuously rectify the position of each keyframe, and thus those misleading mapping can be corrected.
+  
 <p align="center">
   <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/41612bd2-5f99-480d-97ee-ae5b6c27dbd5" />
 </p>
-  
-> After the loops get detected, the global optimization module will continuously rectify the position of each keyframe, and thus those misleading mapping can be corrected.
   
 ### 3.4 Real-time path planning
 For real-time path planning, you can refer to the following repository:
