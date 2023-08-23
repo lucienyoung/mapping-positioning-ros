@@ -10,11 +10,11 @@ The mapping and relocalization module of CityU's blind navigation system.
   git checkout a621ff
 ```
 ## 2. Features  
-2.1 A successful reimplementation of visual-inertial framework for blind positioning.  
-2.2 A noise-eliminated dense reconstruction method based on the Octree management and depth filtering.  
-2.3 An introduction of 3D dense points into each keyframes for map saving and reloading once loop gets detected.  
-2.4 Ground floor reprojection; multi-layer costmap for independent global path planning and local obstacle avoidance.  
-2.5 A Rosbridge-based ROSBridgeClient at the Android end and a user-friendly Android user interface.  
++ A successful reimplementation of visual-inertial framework for blind positioning.  
++ A noise-eliminated dense reconstruction method based on the Octree management and depth filtering.  
++ An introduction of 3D dense points into each keyframes for map saving and reloading once loop gets detected.  
++ Ground floor reprojection; multi-layer costmap for independent global path planning and local obstacle avoidance.  
++ A Rosbridge-based ROSBridgeClient at the Android end and a user-friendly Android user interface.  
 
 ## 3. How to run  
 ### 3.1 Launch the RealSense camera node  
