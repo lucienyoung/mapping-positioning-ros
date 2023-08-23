@@ -38,6 +38,9 @@ If you need dense point cloud for local obstacle avoidance, please enable the po
 ```
 <arg name="enable_pointcloud"    default="true"/>
 ```
+<p align="center">
+  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/81393766-d4cc-4170-9e41-0f95d0be3a07" />
+</p>
   
 ### 3.2 Initialize the ROS workspace for the mapping and positioning algorithms  
 ```
@@ -50,6 +53,10 @@ catkin_make
 ```
   
 ### 3.3 Run the mapping and positioning algorithm  
+<p align="center">
+  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/05871d75-ae25-4d0d-bfa4-c989ed5b89c7" />
+</p>
+  
 The global mapping launch files have been integrated into one, so you can only run the following command to activate all of mapping and visualization nodes:
 ```
 roslaunch vins_estimator realsense_color.launch
@@ -60,10 +67,6 @@ For local point cloud downsampling, please run the following:
 rosrun rs_pcl_filter rs_downsample
 ```
 Note that you should record the navigation goal (destination) along with map building for any future retrieval. Clicking the record button at your Android human-machine interface allows you enter the recording mode, whereby you can input specified goal names into the text bar for recording and receive their real-time position and orientation from ROS for updating. The relavant details can be find in [blind-navigation-app](https://github.com/lucienyoung/blind-navigation-app.git).
-
-<p align="center">
-  <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/05871d75-ae25-4d0d-bfa4-c989ed5b89c7" />
-</p>
 
 <p align="center">
   <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/41612bd2-5f99-480d-97ee-ae5b6c27dbd5" />
