@@ -10,9 +10,9 @@ However, the proposed system consists of a Galaxy A54 Android smartphone as a us
 ## 1. Prerequisites  
 + Ubuntu 18.04.  
 + ROS version Melodic fully installation  
-+ Ceres Solver Follow Ceres Installation  
-+ Sophus
++ Ceres Solver Follow Ceres Installation
 + OpenCV 3.4
++ Sophus
 ```
   git clone http://github.com/strasdat/Sophus.git
   git checkout a621ff
