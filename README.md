@@ -1,5 +1,5 @@
 # mapping-positioning-ros  
-This is the mapping and relocalizing modules of CityU HK's blind navigation system.  
+Here are the mapping and relocalizing modules of CityU HK's blind navigation system.  
 
 However, the proposed system consists of a Galaxy A54 Android smartphone as a user interface, a Dell personal computer with i5-Core CPU (which can be replaced by an advanced Jestson development board for edge computing) and 8GB RAM as the main processor, and a head-mounted RealSense D455 RGB-D camera to perceive the environment. Detailed codes in different module can be seen from the following links we provide, i.e, the [blind-navigation-app](https://github.com/lucienyoung/blind-navigation-app.git) can be found here.
   
@@ -100,7 +100,7 @@ The relavant detail can be found at [ros-navigation WiKi](http://wiki.ros.org/na
   <img src="https://github.com/lucienyoung/map-building-ros/assets/137718915/5e50fa9e-b4f4-43ff-89c5-3d8afdec54fa" />
 </p>
   
-> Given that RealSense technology provides direct point clouds output, but it is too dense to achieve real-time performance when marked down to form a local costmap, we utilize the voxel grid to down-sample the point clouds, where each point is approximate to the centroid given a voxel. Later, the downsampled point clouds will be labelled down to the ground floor for real-time obstacle avoidance, where the local path planning algorithm can be implemented. See from [dwa_local-planner](http://wiki.ros.org/dwa_local_planner).
+> Given that RealSense technology provides direct point clouds output, but it is too dense to achieve real-time performance when marked down to form a local costmap, we utilize the voxel grid to down-sample the point clouds, where each point is approximated to the centroid given a voxel. Later, the downsampled point clouds will be labelled down to the ground floor for real-time obstacle avoidance, where the local path planning algorithm can be implemented. See from [dwa_local-planner](http://wiki.ros.org/dwa_local_planner).
   
 ### 3.5 Path planning simulation
 If you'd like to simulate and test the path planing performance without real-time running, please refer to the [**rbx1**](https://github.com/pirobot/rbx1.git) simulation framework. To install, you can use the following commands:
